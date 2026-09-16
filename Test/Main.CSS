@@ -1,18 +1,40 @@
-ul {
+.navbar ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
-  background-color: #333333;
+  background-color: #faf3f3;
   display: flex;
 }
 
-ul li a {
+.navbar ul li a {
   display: block;
-  color: white;
+  color: rgb(3, 3, 3);
   padding: 14px 16px;
   text-decoration: none;
 }
 
-ul li a:hover {
-  background-color: #111111;
+.navbar ul li a:hover {
+  background-color: grey
+}
+
+.icon img {
+  width: 150px;
+}
+
+body {
+  background-color: lightblue;
+}
+h1{
+  text-align: center;
+}
+p{
+  text-align: center;
+
+}
+img{
+  width:200px;
+  float: right;      
+  margin-left: 15px;  
+  margin-bottom: 15px;
+  width: 150px;
 }
